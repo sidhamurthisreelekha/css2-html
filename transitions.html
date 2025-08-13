@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+
+        }
+        ul li{
+            display: inline-block;
+            padding:20px;
+        }
+        ul li:hover{
+            color:green;
+
+    
+        }
+        .ki{
+            display:none;
+        }
+        ul li:hover .ki{
+            display: block;
+            position: absolute;
+        }
+        .ki ul li{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>COURSES
+            <div class="ki">
+                <ul>
+                    <li>DSA to development</li>
+                    <li>For wrking professionals</li>
+                    <li>For Students</li>
+                    <li>Full Stack Developer</li>
+                    <li>All Courses</li>
+                </ul>
+            </div>
+        </li>
+        <li>PLACEMENT
+            <div class="ki">
+                <ul>
+                    <li>Placement Prep with DSa</li>
+                    <li>Tech Interview 101</li>
+                    <li>DSA to Development</li>
+                    <li>DSA-self placed</li>
+                    <li>System design</li>
+                    <li>placed</li>
+                </ul>
+            </div>
+
+        </li>
+        <li>DATA SCIENCE
+            <div class="ki">
+                <ul>
+                    <li>Data Science-Machine Learning</li>
+                    <li>Data Science training program</li>
+                    <li>Data Analytical program</li>
+                    <li>Data analytical classroom program</li>
+                    
+                </ul>
+            </div>
+
+        </li>
+        <li>GATE
+            <div class="ki">
+                <ul>
+                    <li>Gate CS</li>
+                    <li>GATE DA</li>
+                    <li>GATE EC</li>
+                    <li>GATE ISRO</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
